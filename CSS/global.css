@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2015, 9:14:13 PM
+    Author     : James
+*/
+
+body {
+    background-color: green;
+}
+
+/*Navbar CSS */
+.navbar-brand {
+    margin-top: -15px;
+}
+
+
+/*Steamroller Animation*/
+.steamroller {
+    float: right;
+    
+}
+
+/*Changes the text color to gold on the pages index, about, & contact*/
+
+.text-sand {
+    color: gold;
+}
+
+.banner {
+    background-color: gold;
+}
+
+#ctr-img {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%
+}
+
+iframe {
+    border: none;
+    height: 97vh;
+    width: 100vw;
+}
+
+#flipbook {
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+
+#flipbook p {
+    width: 80%;
+    padding-left: 10%;
+    font-size: 4vmin;
+}
+
+#flipbook h5 {
+    width: 80%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-size: 5vmin;
+}
+
+.page {
+    background-image: url("http://a.rgbimg.com/cache1vxvD8/users/x/xy/xymonau/300/okIu9R8.jpg");
+    background-size: contain;
+}
+
+.pn {
+    background-color: blue;
+    position: absolute;
+    bottom: 5%;
+    left: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!--Head not pulled from master due to conflict with bootstrap.-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../CSS/global.css" type="text/css">
+        <script type="text/javascript" src="../../JS/jquery-2.1.4.js"></script>
+    </head>
+    
+    <body>
+        <!--Visible booklet components-->
+        <section>
+
+            <!--Booklet Content e.g. 'pages'-->
+	    <div id="flipbook">
+                <div>
+                    <h1>The Book of Dio</h1>
+                </div>
+                <div title="first page" rel='Chapter 1'>
+	            <h3>Page 1</h3>
+                    <div class="pn">1</div>
+	        </div>
+	        <div title="second page">
+	            <h3>Page 2</h3>
+                    <div class="pn">2</div>
+	        </div>
+	        <div title="third page">
+	            <h3>Page 3</h3>
+                    <div class="pn">3</div>
+	        </div>
+	        <div title="fourth page">
+	            <h3>Page 4</h3>
+                    <div class="pn">4</div>
+	        </div>
+	        <div title="fifth page" rel='Chapter 2'>
+	            <h3>Page 5</h3>
+                    <div class="pn">5</div>
+	        </div>
+	        <div title="sixth page">
+	            <h3>Page 6</h3>
+                    <div class="pn">6</div>
+	        </div>
+	        <div title="seventh page">
+	            <h3>Page 7</h3>
+                    <div class="pn">7</div>
+	        </div>
+	        <div title="eighth page">
+	            <h3>Page 8</h3>
+                    <div class="pn">8</div>
+	        </div>
+	    </div>
+	</section>        
+	<footer></footer>
+        
+        <!--Script calls for all dependency libraries-->
+        <script src="../../JS/turn.js"></script>
+        <script src="../../JS/hash.js"></script>
+        <script src="../../JS/page_url.js"></script>
+        
+        <!--Booklet initialization & configuration-->
+	<script src="../../JS/book_config.js"></script>
+    </body>
+</html>
